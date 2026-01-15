@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --host --port 6000",
+    "preview": "vite preview --host --port 5500",
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
