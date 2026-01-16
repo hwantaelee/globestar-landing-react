@@ -18,9 +18,9 @@ export default function Tsi() {
                 <div className="w-full h-60 relative">
                     <img src={tsiTitle} className="w-full h-full object-cover" />
                     <div className="w-full h-full absolute flex flex-col top-0 left-0">
-                        <p className="w-full h-4/5 px-24 bg-black/70 text-white flex items-center">
+                        <p className="w-full h-4/5 px-24 bg-black/50 text-white flex items-center text-lg">
                             TSI (상호운영성기술기준)는
-                            <br />
+                            <br /><br />
                             국가간 횡단하는 유럽철도에서 근본적인 안전을 확보하기 위해 유럽위원회에 의해 제정된 시행령으로 유럽내
                             <br />
                             시스템을 공급하기 위해 요구되는 기술인증입니다.
@@ -31,7 +31,7 @@ export default function Tsi() {
                     </div>
                 </div>
                 <div className="w-full flex px-20 gap-16 items-center">
-                    <div className="w-[60%] flex flex-col text-label-light gap-4">
+                    <div className="w-[60%] flex flex-col text-label gap-4">
                         <p>
                             유럽위원회는 고속철도시스템을 위해 Directive 96/48/EC 를 제정하였고, 상용철도시스템을 위해 Directive 2001/16/EC 를 제정하였습니다.
                         </p>

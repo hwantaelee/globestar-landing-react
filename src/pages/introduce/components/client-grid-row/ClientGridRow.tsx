@@ -14,7 +14,7 @@ export default function ClientGridRow({ clients }: Props) {
 
     return <div className="w-full flex gap-4">
         {clients.map((client, index) => <div key={index} className="flex-1 flex flex-col gap-1 items-center">
-            <img src={client.ci} className="w-[70%] h-16 object-contain" />
+            <img src={client.ci} className="w-[70%] h-16 object-fill" />
             <p className="h-4">{client.clientName}</p>
         </div>)}
         {Array.from({ length: EMPTY_SIZE }, (_, i) => i).map(value => <div key={value} className="flex flex-1 h-20" />)}

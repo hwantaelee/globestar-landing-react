@@ -12,8 +12,8 @@ export default function Home() {
         <div className="w-full h-[calc(100vh-136px)] flex gap-4 px-8 py-4">
             {/* RAMS */}
             <div className="w-[34%] h-full relative">
-                <img src={ramsBg} className="w-full h-full object-cover" />
-                <div className="p-8 absolute bg-black/70 w-full top-0 left-0 flex flex-col gap-4" onClick={() => navigate("/tech")}>
+                <img src={ramsBg} className="w-full h-full object-fill" />
+                <div className="p-8 absolute bg-black/70 w-full top-0 left-0 flex flex-col gap-4 cursor-pointer" onClick={() => navigate("/tech")}>
                     <div className="flex justify-between items-center">
                         <p className="text-white text-4xl font-black">
                             RAMS
@@ -30,7 +30,7 @@ export default function Home() {
             {/* ISA/SIL */}
             <div className="w-[34%] relative">
                 <img src={isaSilBg} className="w-full h-full object-cover" />
-                <div className="p-8 absolute bg-black/70 w-full top-0 left-0 flex flex-col gap-4" onClick={() => navigate("/tech/isa-sil")}>
+                <div className="p-8 absolute bg-black/70 w-full top-0 left-0 flex flex-col gap-4 cursor-pointer" onClick={() => navigate("/tech/isa-sil")}>
                     <div className="flex justify-between items-center">
                         <p className="text-white text-4xl font-black">
                             ISA/SIL인증
@@ -49,35 +49,35 @@ export default function Home() {
                 <div className="w-full h-[33%] border border-divider flex justify-between px-8 py-4 bg-white">
                     <div className="flex flex-col justify-between w-[60%]">
                         <p className="text-3xl font-semibold text-label">
-                            철도안전법
+                            철도안전법승인
                         </p>
                         <p className="text-label-light text-sm">
                             철도안전법에 따라 철도용품 및 철도차량 제작자는 관련 시행지침에 의한 형식승인, 제작자 승인 그리고 완성검사를 받아야 합니다.
                         </p>
-                        <div className="text-white text-sm bg-primary w-fit h-fit p-2" onClick={() => navigate("/tech/safety-act")}>
-                            더보기 +
+                        <div className="text-white text-sm bg-primary w-fit h-fit p-2 cursor-pointer" onClick={() => navigate("/tech/safety-act")}>
+                            자세히보기 +
                         </div>
                     </div>
                     <img
                         src={krts}
-                        className="w-[30%] object-contain"
+                        className="w-[40%] object-contain"
                     />
                 </div>
-                <div className="w-full h-[33%] border border-divider flex justify-between px-8 py-4 bg-white">
-                    <div className="flex flex-col justify-between w-[60%]">
+                <div className="w-full h-[33%] border border-divider flex justify-between pl-8 pr-4 py-4 bg-white">
+                    <div className="flex flex-col justify-between w-[50%]">
                         <p className="text-3xl font-semibold text-label">
                             용접인증
                         </p>
                         <p className="text-label-light text-sm">
                             - ISO3834<br />- EN1090<br />- EM15085
                         </p>
-                        <div className="text-white text-sm bg-primary w-fit h-fit p-2" onClick={() => navigate("/welding")}>
-                            더보기 +
+                        <div className="text-white text-sm bg-primary w-fit h-fit p-2 cursor-pointer" onClick={() => navigate("/welding")}>
+                            자세히보기 +
                         </div>
                     </div>
                     <img
                         src={cert}
-                        className="w-[30%] object-contain"
+                        className="w-[50%] object-contain"
                     />
                 </div>
                 <div className="w-full h-[33%] flex gap-4">
@@ -92,8 +92,8 @@ export default function Home() {
                                 철도산업 국제품질경영시스템
                             </p>
                         </div>
-                        <div className="text-white text-sm border border-white w-fit h-fit p-2" onClick={() => navigate("/tech/iris")}>
-                            더보기 +
+                        <div className="text-white text-sm border border-white w-fit h-fit p-2 cursor-pointer" onClick={() => navigate("/tech/iris")}>
+                            자세히보기 +
                         </div>
                     </div>
                 </div>

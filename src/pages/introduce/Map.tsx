@@ -9,12 +9,12 @@ export default function Map() {
             <PageTitle title="회사소개" />
             <IntroduceNavBar />
             <p className="text-2xl text-primary pl-30">
-                ・ 찾아오시는 길
+                ・ 오시는 길
             </p>
             <div className="w-full h-[420px] px-30 ">
                 <iframe
                     title="map"
-                    src="https://map.naver.com/v5/search/서울특별시%20마포구%20마포대로%20173"
+                    src="https://www.google.com/maps?q=서울특별시%20마포구%20마포대로%20173&output=embed"
                     className="w-full h-full border-0"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
@@ -23,7 +23,7 @@ export default function Map() {
             <div className="flex flex-col gap-4 px-30">
                 <div className="flex">
                     <p className="w-24 text-label">
-                        Address
+                        주소
                     </p>
                     <p className="text-label">
                         <span className="bg-primary text-white px-2">본사</span> 서울특별시 마포구 마포대로 173, 마포현대하이엘 1313호

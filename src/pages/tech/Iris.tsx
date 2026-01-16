@@ -21,9 +21,11 @@ export default function Iris() {
                 <div className="w-full h-60 relative">
                     <img src={irisTitle} className="w-full h-full object-cover" />
                     <div className="w-full h-full absolute flex flex-col top-0 left-0">
-                        <div className="w-full h-4/5 flex items-center gap-8 px-24 bg-black/70">
-                            <p className="w-[70%] h-full text-white flex items-center">
-                                ISO (국제표준화기구)는 철도산업 품질경영시스템 요구사항인
+                        <div className="w-full h-4/5 flex items-center gap-8 px-24 bg-black/50">
+                            <p className="w-[70%] h-full text-white flex items-center text-lg">
+                                ISO (국제표준화기구)는
+                                <br /><br />
+                                철도산업 품질경영시스템 요구사항인
                                 <br />
                                 ISO/TS22163 을 제정하여 철도분야에서 적용합니다.
                             </p>
@@ -36,10 +38,10 @@ export default function Iris() {
                         </p>
                     </div>
                 </div>
-                <div className="flex h-80 w-full justify-center px-10 gap-8">
-                    <img src={irisPhoto1} className="w-4/5 object-cover" />
+                <div className="flex h-100 w-full justify-center px-10 gap-8">
+                    <img src={irisPhoto1} className="w-full object-contain" />
                 </div>
-                <div className="flex flex-col text-label-light gap-4 px-20">
+                <div className="flex flex-col text-label gap-4 px-20">
                     <p>
                         ISO/TS22163 은 유럽철도산업협회 (UNIFE)에서 철도산업의 필수적인 품질요구사항들을 반영하여 개발한 철도산업 사업관리시스템인 IRIS (International Railway Industry Standard)를 기반으로 국제적으로 철도산업에 적용하기 위해 ISO9001:2015 요건에 맞춘 표준입니다.
                     </p>
@@ -55,9 +57,9 @@ export default function Iris() {
                         글로브스타는 IRIS 컨설턴트로서 수십건의 IRIS 와 AS9100 (우주항공 품질경영시스템) 인증 및 컨설팅 경험으로 인증 프로세스 단계마다 인증을 위한 효율적인 지원을 약속합니다.
                     </p>
                 </div>
-                <div className="flex h-60 w-full justify-center px-10 gap-8">
-                    <img src={irisPhoto2} className="w-[40%] object-cover" />
-                    <img src={irisPhoto3} className="w-[40%] object-cover" />
+                <div className="flex h-70 w-full justify-center px-10 gap-8">
+                    <img src={irisPhoto2} className="w-[40%] object-fill" />
+                    <img src={irisPhoto3} className="w-[40%] object-fill" />
                 </div>
             </div>
         </div>

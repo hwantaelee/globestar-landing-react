@@ -19,28 +19,28 @@ export default function En15085() {
             </p>
             <div className="w-full flex flex-col gap-8 items-center px-30 pb-30">
                 <div className="w-full h-60 relative">
-                    <img src={en15085} className="w-full h-full object-cover" />
+                    <img src={en15085} className="w-full h-full object-fill" />
                     <div className="w-full h-full absolute flex top-0 left-0">
-                        <div className="w-1/3 h-full bg-primary/70 text-white flex flex-col items-center gap-12 pt-8">
-                            <p className="text-4xl">
+                        <div className="w-[30%] h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
+                            <p className="text-2xl">
                                 EN15085-2
                             </p>
-                            <p className="text-center">
+                            <p className="text-center text-lg">
                                 철도차량 및
                                 <br />
                                 부품 용접제작자 인증
                             </p>
                         </div>
-                        <div className="w-2/3 h-full bg-black/70 " />
+                        <div className="w-2/3 h-full bg-black/50 " />
                     </div>
                 </div>
                 <div className="flex h-60 w-full justify-center px-10 gap-4">
-                    <img src={en15085Photo1} className="w-[25%] h-full object-cover" />
-                    <img src={en15085Photo2} className="w-[25%] h-full object-cover" />
-                    <img src={en15085Photo3} className="w-[25%] h-full object-cover" />
-                    <img src={en15085Photo4} className="w-[25%] h-full object-cover" />
+                    <img src={en15085Photo1} className="w-1/4 h-full object-fill" />
+                    <img src={en15085Photo2} className="w-1/4 h-full object-fill" />
+                    <img src={en15085Photo3} className="w-1/4 h-full object-fill" />
+                    <img src={en15085Photo4} className="w-1/4 h-full object-fill" />
                 </div>
-                <div className="text-label-light px-20 flex flex-col gap-4">
+                <div className="text-label px-20 flex flex-col gap-4">
                     <p>
                         EN15085-2 은 유럽표준화위원회 (CEN: European Committee for Standardization) 에서 제정한 철도분야 적용표준으로 철도차량 및 부품제작에서 용접작업을 수행하는 제작사가 갖춰야 할 기본적인 능력 (인적/기술적/시스템/장비 등) 에 대한 요구사항으로 유럽역내에서는 EN15085-2 에 따라 인증받은 제작자만이 철도차량 및 부품 제작에서 용접작업을 수행하도록 하고 있습니다.
                     </p>

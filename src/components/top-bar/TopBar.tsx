@@ -5,14 +5,14 @@ export default function TopBar() {
 
     const navigate = useNavigate();
 
-    return <div className="w-full h-20 flex px-4 items-center justify-between pt-2 pb-2">
+    return <div className="w-full h-20 flex px-12 items-center justify-between pt-2 pb-2">
         <div className="h-full flex items-end cursor-pointer" onClick={() => navigate('/')}>
             <img
                 src={logo}
                 className="h-full"
             />
             <h1 className="text-label text-lg pb-1 font-semibold">
-                철도시스템기술 전문회사
+                철도시스템기술 인증전문회사
             </h1>
         </div>
         <div className="flex flex-col items-center">

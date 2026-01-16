@@ -19,28 +19,28 @@ export default function En1090() {
             </p>
             <div className="w-full flex flex-col gap-8 items-center px-30 pb-30">
                 <div className="w-full h-60 relative">
-                    <img src={en1090} className="w-full h-full object-cover" />
+                    <img src={en1090} className="w-full h-full object-fill" />
                     <div className="w-full h-full absolute flex top-0 left-0">
-                        <div className="w-1/3 h-full bg-primary/70 text-white flex flex-col items-center gap-12 pt-8">
-                            <p className="text-4xl">
+                        <div className="w-[30%] h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
+                            <p className="text-2xl">
                                 EN1090
                             </p>
-                            <p className="text-center">
+                            <p className="text-center text-lg">
                                 강 구조물의
                                 <br />
                                 유럽적합성평가 및 인증
                             </p>
                         </div>
-                        <div className="w-2/3 h-full bg-black/70 " />
+                        <div className="w-2/3 h-full bg-black/50 " />
                     </div>
                 </div>
                 <div className="flex h-60 w-full justify-center px-10 gap-4">
-                    <img src={en1090Photo1} className="w-[25%] h-full object-cover" />
-                    <img src={en1090Photo2} className="w-[25%] h-full object-cover" />
-                    <img src={en1090Photo3} className="w-[25%] h-full object-cover" />
-                    <img src={en1090Photo4} className="w-[25%] h-full object-cover" />
+                    <img src={en1090Photo1} className="w-[25%] h-full object-fill" />
+                    <img src={en1090Photo2} className="w-[25%] h-full object-fill" />
+                    <img src={en1090Photo3} className="w-[25%] h-full object-fill" />
+                    <img src={en1090Photo4} className="w-[25%] h-full object-fill" />
                 </div>
-                <div className="text-label-light px-20 flex flex-col gap-4">
+                <div className="text-label px-20 flex flex-col gap-4">
                     <p>
                         EN1090 은 유럽표준화위원회 (CEN: European Committee for Standardization) 에서 제정한 건설제품표준 (CPR: Construction Product Regulation) 으로 철구조물과 알루미늄구조물 등 강구조물 제작사에 대해 요구하는 강제규정으로, 승인 후 제품에 CE마크를 부착해야하는 건설, 플랜트 산업에서 필수적으로 만족해야 하는 법적요건입니다.
                     </p>

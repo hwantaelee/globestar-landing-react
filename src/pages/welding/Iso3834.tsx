@@ -18,25 +18,25 @@ export default function Iso3834() {
             </p>
             <div className="w-full flex flex-col gap-8 items-center px-30 pb-30">
                 <div className="w-full h-60 relative">
-                    <img src={iso3834} className="w-full h-full object-cover" />
+                    <img src={iso3834} className="w-full h-full object-fill" />
                     <div className="w-full h-full absolute flex top-0 left-0">
-                        <div className="w-1/3 h-full bg-primary/70 text-white flex flex-col items-center gap-12 pt-8">
-                            <p className="text-4xl">
+                        <div className="w-[30%] h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
+                            <p className="text-2xl">
                                 ISO3834
                             </p>
-                            <p>
+                            <p className="text-lg">
                                 용접품질보증인증
                             </p>
                         </div>
-                        <div className="w-2/3 h-full bg-black/70 " />
+                        <div className="w-2/3 h-full bg-black/50 " />
                     </div>
                 </div>
                 <div className="flex h-60 w-full justify-center px-10 gap-4">
-                    <img src={iso3834Photo1} className="w-[33%] h-full object-cover" />
-                    <img src={iso3834Photo2} className="w-[33%] h-full object-cover" />
-                    <img src={iso3834Photo3} className="w-[33%] h-full object-cover" />
+                    <img src={iso3834Photo1} className="w-[33%] h-full object-fill" />
+                    <img src={iso3834Photo2} className="w-[33%] h-full object-fill" />
+                    <img src={iso3834Photo3} className="w-[33%] h-full object-fill" />
                 </div>
-                <div className="text-label-light px-20 flex flex-col gap-4">
+                <div className="text-label px-20 flex flex-col gap-4">
                     <p>
                         ISO3834 는 ISO (International Organization for Standardization-국제표준화기구)에 의해 제정된 국제용접품질표준입니다.
                     </p>

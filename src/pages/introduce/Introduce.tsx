@@ -19,7 +19,7 @@ export default function Introduce() {
                     src={introduce}
                     className="w-[40%]"
                 />
-                <div className="w-[60%] flex flex-col gap-10 pr-30 text-label-light text-lg">
+                <div className="w-[60%] flex flex-col gap-10 pr-30 text-label text-lg">
                     <p>
                         글로브스타는 싱가포르를 기반으로
                         유럽, 중동, 동남아, 아프리카 등 전세계 철도분야에서

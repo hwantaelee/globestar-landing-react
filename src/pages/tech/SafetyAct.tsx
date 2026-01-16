@@ -20,10 +20,12 @@ export default function SafetyAct() {
                 <div className="w-full h-60 relative">
                     <img src={safetyActTitle} className="w-full h-full object-cover" />
                     <div className="w-full h-full absolute flex flex-col top-0 left-0">
-                        <div className="w-full h-4/5 flex items-center gap-8 px-24 bg-black/70">
-                            <p className="w-[70%] h-full text-white flex items-center">
-                                RAMS (Reliability, Availability, Maintainability, Safety)는 <br /><br />
-                                신뢰성 (Reliability), 가용성 (Availability), 유지보수성 (Maintainability), 안전성 (Safety) 으로 철도표준인 EN50126(IEC62278), EN50128(IEC62279), EN50129(IEC62425) 에 따른 철도 프로젝트의 가용성 및 안전성 예측 및 입증 기술입니다.
+                        <div className="w-full h-4/5 flex items-center gap-8 px-24 bg-black/50">
+                            <p className="w-[70%] h-full text-white flex items-center text-lg">
+                                철도차량 및 철도용품은 철도안전법에 따라 형식승인 및 제작자승인을 받아야 합니다.<br />
+                                형식승인은 유럽의 TSI (Technical Specification for Interoperability),
+                                제작자승인은 ISO/TS22163(IRIS) 을 반영하여 제정된 기술기준에 따라
+                                검사를 받고 국토교통부 장관이 승인증명서를 발행합니다.
                             </p>
                             <div className="w-[30%] h-full flex justify-center items-center">
                                 <img src={krts} className="h-4/5 object-contain" />
@@ -35,17 +37,17 @@ export default function SafetyAct() {
                     </div>
                 </div>
                 <div className="flex h-60 w-full justify-center px-10 gap-8">
-                    <img src={typeApproval1} className="w-[40%] h-full object-cover" />
-                    <img src={typeApproval2} className="w-[40%] h-full object-cover" />
+                    <img src={typeApproval1} className="w-[40%] h-full object-fill" />
+                    <img src={typeApproval2} className="w-[40%] h-full object-fill" />
                 </div>
                 <p className="w-full text-xl text-label font-bold px-10">
                     형식승인
                 </p>
                 <div className="w-full flex flex-col px-13 gap-1">
-                    <p className="text-label font-bold">
+                    <p className="text-label font-bold text-lg">
                         형식승인검사
                     </p>
-                    <div className="flex text-label-light">
+                    <div className="flex text-label">
                         <p className="min-w-3">
                             ・
                         </p>
@@ -55,10 +57,10 @@ export default function SafetyAct() {
                     </div>
                 </div>
                 <div className="w-full flex flex-col px-13 gap-1">
-                    <p className="text-label font-bold">
+                    <p className="text-label font-bold text-lg">
                         설계적합성검사
                     </p>
-                    <div className="flex text-label-light">
+                    <div className="flex text-label">
                         <p className="min-w-3">
                             ・
                         </p>
@@ -68,10 +70,10 @@ export default function SafetyAct() {
                     </div>
                 </div>
                 <div className="w-full flex flex-col px-13 gap-1">
-                    <p className="text-label font-bold">
+                    <p className="text-label font-bold text-lg">
                         합치성검사
                     </p>
-                    <div className="flex text-label-light">
+                    <div className="flex text-label">
                         <p className="min-w-3">
                             ・
                         </p>
@@ -81,10 +83,10 @@ export default function SafetyAct() {
                     </div>
                 </div>
                 <div className="w-full flex flex-col px-13 gap-1">
-                    <p className="text-label font-bold">
+                    <p className="text-label font-bold text-lg">
                         용품형식시험
                     </p>
-                    <div className="flex text-label-light">
+                    <div className="flex text-label">
                         <p className="min-w-3">
                             ・
                         </p>
@@ -97,10 +99,10 @@ export default function SafetyAct() {
                     제작자승인
                 </p>
                 <div className="w-full flex flex-col px-13 gap-1">
-                    <p className="text-label font-bold">
+                    <p className="text-label font-bold text-lg">
                         제작자승인검사
                     </p>
-                    <div className="flex text-label-light">
+                    <div className="flex text-label">
                         <p className="min-w-3">
                             ・
                         </p>
@@ -110,10 +112,10 @@ export default function SafetyAct() {
                     </div>
                 </div>
                 <div className="w-full flex flex-col px-13 gap-1">
-                    <p className="text-label font-bold">
+                    <p className="text-label font-bold text-lg">
                         품질관리체계 적합성검사
                     </p>
-                    <div className="flex text-label-light">
+                    <div className="flex text-label">
                         <p className="min-w-3">
                             ・
                         </p>
@@ -123,10 +125,10 @@ export default function SafetyAct() {
                     </div>
                 </div>
                 <div className="w-full flex flex-col px-13 gap-1">
-                    <p className="text-label font-bold">
+                    <p className="text-label font-bold text-lg">
                         제작검사
                     </p>
-                    <div className="flex text-label-light">
+                    <div className="flex text-label">
                         <p className="min-w-3">
                             ・
                         </p>
