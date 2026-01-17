@@ -29,7 +29,6 @@ export default function TsiMobile() {
                 <div className="absolute inset-0 bg-black/50 flex items-center px-4">
                     <p className="text-white text-sm leading-relaxed">
                         TSI (상호운영성기술기준)는
-                        <br /><br />
                         국가간 횡단하는 유럽철도에서 근본적인 안전을 확보하기 위해 유럽위원회에 의해 제정된 시행령으로 유럽내 시스템을 공급하기 위해 요구되는 기술인증입니다.
                     </p>
                 </div>

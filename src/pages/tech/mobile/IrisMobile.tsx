@@ -28,9 +28,7 @@ export default function IrisMobile() {
                 <div className="absolute inset-0 bg-black/50 flex items-center px-4">
                     <p className="text-white text-sm leading-relaxed">
                         ISO (국제표준화기구)는
-                        <br /><br />
                         철도산업 품질경영시스템 요구사항인
-                        <br />
                         ISO/TS22163 을 제정하여
                         철도분야에 적용합니다.
                     </p>
