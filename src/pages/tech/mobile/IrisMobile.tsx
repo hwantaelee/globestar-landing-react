@@ -2,7 +2,6 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import TechNavBar from "../components/nav-bar/TechNavBar";
 
 import irisTitle from "../../../../public/images/tech/iris-title.png";
-import iris from "../../../../public/images/tech/iris.png";
 import irisPhoto1 from "../../../../public/images/tech/iris-photo1.png";
 import irisPhoto2 from "../../../../public/images/tech/iris-photo2.png";
 import irisPhoto3 from "../../../../public/images/tech/iris-photo3.png";

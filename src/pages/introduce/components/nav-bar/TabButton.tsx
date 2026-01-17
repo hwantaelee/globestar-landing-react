@@ -10,7 +10,6 @@ interface Props {
 
 export default function TabButton({ url, title, end = false }: Props) {
     const device = useDeviceStore((s) => s.deviceType);
-    const isLaptop = device === "laptop";
     const isTablet = device === "tablet";
 
     return (
