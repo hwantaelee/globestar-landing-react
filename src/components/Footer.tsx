@@ -12,7 +12,7 @@ export default function Footer() {
                 "w-full h-fit bg-white flex flex-col px-8 py-8 text-label text-sm gap-8",
 
                 // ✅ tablet일 때만 글자 크기 축소
-                isTablet && "text-xs"
+                isTablet && "text-xs pb-40"
             )}
         >
             <div>
@@ -34,7 +34,7 @@ export default function Footer() {
                 </div>
                 <div className="flex">
                     <p className="min-w-10">이메일</p>
-                    <p>: gstarkorea@gmail.com</p>
+                    <p>: drlee@globestartech.com</p>
                 </div>
             </div>
 

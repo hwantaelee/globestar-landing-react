@@ -7,6 +7,7 @@ import iris from "../../../public/images/tech/iris.png";
 import irisPhoto1 from "../../../public/images/tech/iris-photo1.png";
 import irisPhoto2 from "../../../public/images/tech/iris-photo2.png";
 import irisPhoto3 from "../../../public/images/tech/iris-photo3.png";
+import irisPhoto4 from "../../../public/images/tech/iris-photo4.png";
 
 import { useDeviceStore } from "../../store/useDeviceStore";
 import { cn } from "../../utils/cn";
@@ -48,12 +49,9 @@ export default function Iris() {
                                     "w-[70%] h-full text-white flex items-center text-lg",
                                     isLaptop && "text-sm"
                                 )}>
-                                    ISO (국제표준화기구)는
+                                    ISO/TS22613 (IRIS) - 철도산업 국제 품질경영시스템은
                                     <br /><br />
-                                    철도산업 품질경영시스템 요구사항인
-                                    <br />
-                                    ISO/TS22163 을 제정하여
-                                    철도분야에 적용합니다.
+                                    ISO(국제표준화기구)에서 제정하여 철도분야에서 적용하고 있는 글로벌스탠다드입니다.
                                 </p>
 
                                 <div className="w-[30%] h-full flex justify-center items-center">
@@ -72,8 +70,9 @@ export default function Iris() {
                     </div>
 
                     {/* 단일 이미지 */}
-                    <div className="flex w-full justify-center px-10">
-                        <img src={irisPhoto1} className="w-full max-h-[400px] object-contain" />
+                    <div className="flex h-60 w-full justify-center px-10 gap-8">
+                        <img src={irisPhoto1} className="w-[40%] h-full object-fill" />
+                        <img src={irisPhoto4} className="w-[40%] h-full object-fill" />
                     </div>
 
                     {/* 본문 */}

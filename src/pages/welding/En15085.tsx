@@ -4,7 +4,6 @@ import WeldingNavBar from "./components/nav-bar/WeldingNavBar";
 
 import en15085 from "../../../public/images/welding/en15085.png";
 import en15085Photo1 from "../../../public/images/welding/en15085-photo1.png";
-import en15085Photo2 from "../../../public/images/welding/en15085-photo2.png";
 import en15085Photo3 from "../../../public/images/welding/en15085-photo3.png";
 import en15085Photo4 from "../../../public/images/welding/en15085-photo4.png";
 
@@ -42,7 +41,7 @@ export default function En15085() {
                     <div className="w-full h-60 relative">
                         <img src={en15085} className="w-full h-full object-fill" />
                         <div className="w-full h-full absolute flex top-0 left-0">
-                            <div className="w-[30%] h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
+                            <div className="w-1/3 h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
                                 <p className={cn(
                                     "text-2xl",
                                     isLaptop && "text-xl"
@@ -58,16 +57,21 @@ export default function En15085() {
                                     부품 용접제작자 인증
                                 </p>
                             </div>
-                            <div className="w-2/3 h-full bg-black/50" />
+                            <div className="w-2/3 h-full bg-black/50 ">
+                                <p className="h-full w-full text-white px-24 flex items-center justify-center text-lg">
+                                    EN15085-2은
+                                    <br /><br />
+                                    유럽표준화위원회 (CEN: European Committee for Standardization) 에서 제정한 철도분야 적용용접표준입니다.
+                                </p>
+                            </div>
                         </div>
                     </div>
 
                     {/* 이미지 */}
                     <div className="flex h-60 w-full justify-center px-10 gap-4">
-                        <img src={en15085Photo1} className="w-1/4 h-full object-fill" />
-                        <img src={en15085Photo2} className="w-1/4 h-full object-fill" />
-                        <img src={en15085Photo3} className="w-1/4 h-full object-fill" />
-                        <img src={en15085Photo4} className="w-1/4 h-full object-fill" />
+                        <img src={en15085Photo1} className="w-1/3 h-full object-fill" />
+                        <img src={en15085Photo3} className="w-1/3 h-full object-fill" />
+                        <img src={en15085Photo4} className="w-1/3 h-full object-fill" />
                     </div>
 
                     {/* 본문 */}

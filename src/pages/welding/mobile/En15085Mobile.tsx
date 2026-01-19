@@ -3,7 +3,6 @@ import WeldingNavBar from "../components/nav-bar/WeldingNavBar";
 
 import en15085 from "../../../../public/images/welding/en15085.png";
 import en15085Photo1 from "../../../../public/images/welding/en15085-photo1.png";
-import en15085Photo2 from "../../../../public/images/welding/en15085-photo2.png";
 import en15085Photo3 from "../../../../public/images/welding/en15085-photo3.png";
 import en15085Photo4 from "../../../../public/images/welding/en15085-photo4.png";
 
@@ -29,24 +28,28 @@ export default function En15085Mobile() {
                     className="w-full aspect-video object-fill"
                 />
                 <div className="absolute inset-0 flex">
-                    <div className="w-1/2 bg-primary/70 text-white flex flex-col items-center justify-center gap-2">
-                        <p className="text-xl">
+                    <div className="w-1/3 bg-primary/70 text-white flex flex-col items-center justify-center gap-2">
+                        <p className="text-base">
                             EN15085-2
                         </p>
-                        <p className="text-sm text-center">
+                        <p className="text-xs text-center">
                             철도차량 및
                             <br />
                             부품 용접제작자 인증
                         </p>
                     </div>
-                    <div className="w-1/2 bg-black/50" />
+                    <div className="w-2/3 h-full bg-black/50">
+                        <p className="h-full w-full text-white px-4 flex items-center justify-center text-sm">
+                            EN15085-2은
+                            유럽표준화위원회 (CEN: European Committee for Standardization) 에서 제정한 철도분야 적용용접표준입니다.
+                        </p>
+                    </div>
                 </div>
             </div>
 
             {/* 이미지 */}
             <div className="flex flex-col gap-4">
                 <img src={en15085Photo1} className="w-full h-48 object-fill" />
-                <img src={en15085Photo2} className="w-full h-48 object-fill" />
                 <img src={en15085Photo3} className="w-full h-48 object-fill" />
                 <img src={en15085Photo4} className="w-full h-48 object-fill" />
             </div>

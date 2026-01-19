@@ -18,7 +18,7 @@ export default function ClientGridRow({ clients }: Props) {
     const isTablet = device === "tablet";
 
     // PC / Laptop: 4열, Tablet: 2열
-    const MAX_SIZE = isTablet ? 2 : 4;
+    const MAX_SIZE = 4;
     const EMPTY_SIZE = MAX_SIZE - clients.length;
 
     return (
@@ -56,12 +56,11 @@ export default function ClientGridRow({ clients }: Props) {
                     </p>
                 </div>
             ))}
-
-            {/* 빈칸 채우기 (PC/Laptop만 의미 있음) */}
-            {!isTablet &&
-                Array.from({ length: EMPTY_SIZE }, (_, i) => (
-                    <div key={i} className="flex flex-1 h-20" />
-                ))}
+            {Array.from({ length: EMPTY_SIZE }, (_, i) => {
+                return <div
+                    key={`empty-${i}`}
+                    className={cn("flex h-20", isTablet && "w-[40%]", !isTablet && "flex-1")} />
+            })}
         </div>
     );
 }

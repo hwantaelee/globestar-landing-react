@@ -2,7 +2,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import TechNavBar from "../components/nav-bar/TechNavBar";
 
 import seTitle from "../../../../public/images/tech/se-title.png";
-import seExample from "../../../../public/images/tech/se-example.png";
+import tsiPhoto1 from "../../../../public/images/tech/tsi-photo1.png";
 import { cn } from "../../../utils/cn";
 
 export default function SeMobile() {
@@ -55,7 +55,7 @@ export default function SeMobile() {
                 </p>
             </div>
 
-            <img src={seExample} className="w-full h-48 object-fill" />
+            <img src={tsiPhoto1} className="w-full h-48 object-fill" />
 
             <div className="w-full flex flex-col gap-4">
                 <p className={cn("text-label font-bold",)}>

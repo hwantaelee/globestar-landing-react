@@ -1,11 +1,11 @@
 import Breadcrumb from "../../../components/Breadcrumb";
 import WeldingNavBar from "../components/nav-bar/WeldingNavBar";
 
-import iso3834 from "../../../../public/images/welding/iso3834.png";
-import en15085 from "../../../../public/images/welding/en15085.png";
 import wps from "../../../../public/images/welding/wps.png";
 import wpsPhoto1 from "../../../../public/images/welding/wps-photo1.png";
 import wpsPhoto2 from "../../../../public/images/welding/wps-photo2.png";
+import wpsPhoto3 from "../../../../public/images/welding/wps-photo3.png";
+import wpsPhoto4 from "../../../../public/images/welding/wps-photo4.png";
 
 export default function WpsMobile() {
     return (
@@ -29,17 +29,21 @@ export default function WpsMobile() {
                     className="w-full aspect-video object-fill"
                 />
                 <div className="absolute inset-0 flex">
-                    <div className="w-1/2 bg-primary/70 text-white flex flex-col items-center justify-center gap-2">
-                        <p className="text-xl">
+                    <div className="w-1/3 bg-primary/70 text-white flex flex-col items-center justify-center gap-2">
+                        <p className="text-base">
                             용접사/WPS 승인
                         </p>
-                        <p className="text-sm text-center">
+                        <p className="text-xs text-center">
                             유럽기술법(EN)에 따른
                             <br />
                             용접사 및 WPS 승인
                         </p>
                     </div>
-                    <div className="w-1/2 bg-black/50" />
+                    <div className="w-2/3 h-full bg-black/50">
+                        <p className="h-full w-full text-white px-4 flex items-center justify-center text-sm">
+                            IWE 국제용접기술사, 용접사승인, WPS/WPQR,  ISO승인, EN승인, AWS, ASME 승인 컨설팅 및 인증
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -47,8 +51,8 @@ export default function WpsMobile() {
             <div className="flex flex-col gap-4">
                 <img src={wpsPhoto1} className="w-full h-48 object-fill" />
                 <img src={wpsPhoto2} className="w-full h-48 object-fill" />
-                <img src={iso3834} className="w-full h-48 object-fill" />
-                <img src={en15085} className="w-full h-48 object-fill" />
+                <img src={wpsPhoto3} className="w-full h-48 object-fill" />
+                <img src={wpsPhoto4} className="w-full h-48 object-fill" />
             </div>
 
             {/* 본문 */}

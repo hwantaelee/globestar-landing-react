@@ -2,6 +2,7 @@ import ramsBg from "../../../../public/images/home/rams-bg.png";
 import isaSilBg from "../../../../public/images/home/isa-sil-bg.png";
 import krts from "../../../../public/images/krts.png";
 import cert from "../../../../public/images/home/cert.png";
+import iris from "../../../../public/images/tech/iris.png";
 import { useNavigate } from "react-router-dom";
 
 export default function HomeMobile() {
@@ -40,6 +41,7 @@ export default function HomeMobile() {
             <PrimaryCard
                 title="ISO/TS22163(IRIS)"
                 desc="철도산업 국제품질경영시스템"
+                img={iris}
                 onClick={() => navigate("/tech/iris")}
             />
         </div>
@@ -69,26 +71,30 @@ function WhiteCard({ title, desc, img, onClick }: any) {
             className="w-full min-h-36 border border-divider bg-white p-4 flex justify-between items-center cursor-pointer"
             onClick={onClick}
         >
-            <div className="flex flex-col gap-2 w-[65%]">
+            <div className="flex flex-col gap-2 w-[60%]">
                 <p className="text-lg font-semibold text-label">{title}</p>
                 <p className="text-sm text-label-light whitespace-pre-line">{desc}</p>
+                <div className="text-white bg-primary text-sm  w-fit px-2 py-1 mt-2">
+                    자세히보기 +
+                </div>
             </div>
-            <img src={img} className="w-[35%] object-contain" />
+            <img src={img} className="w-[40%] object-contain" />
         </div>
     );
 }
 
-function PrimaryCard({ title, desc, onClick }: any) {
+function PrimaryCard({ title, desc, img, onClick }: any) {
     return (
-        <div
-            className="w-full min-h-36 bg-primary p-4 flex flex-col gap-2 cursor-pointer"
-            onClick={onClick}
-        >
-            <p className="text-white text-lg font-semibold">{title}</p>
-            <p className="text-white text-sm">{desc}</p>
-            <div className="text-white text-sm border border-white w-fit px-2 py-1 mt-2">
-                자세히보기 +
+        <div className="flex w-full bg-primary p-4"
+            onClick={onClick}>
+            <div className="w-[60%] flex flex-col gap-2 cursor-pointer">
+                <p className="text-white text-lg font-semibold" style={{ textShadow: "0 2px 6px rgba(0,0,0,0.6)" }}>{title}</p>
+                <p className="text-white text-sm" style={{ textShadow: "0 2px 6px rgba(0,0,0,0.6)" }}>{desc}</p>
+                <div className="text-white text-sm border border-white w-fit px-2 py-1 mt-2">
+                    자세히보기 +
+                </div>
             </div>
+            <img src={img} className="w-[40%] object-contain" />
         </div>
     );
 }

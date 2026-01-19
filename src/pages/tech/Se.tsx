@@ -3,7 +3,8 @@ import PageTitle from "../../components/PageTitle";
 import TechNavBar from "./components/nav-bar/TechNavBar";
 
 import seTitle from "../../../public/images/tech/se-title.png";
-import seExample from "../../../public/images/tech/se-example.png";
+import tsiPhoto1 from "../../../public/images/tech/tsi-photo1.png";
+
 
 import { useDeviceStore } from "../../store/useDeviceStore";
 import { cn } from "../../utils/cn";
@@ -90,7 +91,7 @@ export default function Se() {
 
                         <div className="flex justify-between gap-8">
                             <div className={cn(
-                                "w-[55%] flex flex-col text-label gap-1",
+                                "w-1/2 flex flex-col text-label gap-1",
                                 isLaptop && "text-sm"
                             )}>
                                 {[
@@ -115,8 +116,8 @@ export default function Se() {
                                 ))}
                             </div>
 
-                            <div className="w-[45%] flex items-center justify-center">
-                                <img src={seExample} className="w-full object-fill" />
+                            <div className="w-1/2 flex items-center justify-center">
+                                <img src={tsiPhoto1} className="w-full object-fill h-60" />
                             </div>
                         </div>
                     </div>

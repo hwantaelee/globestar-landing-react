@@ -5,7 +5,7 @@ import irisTitle from "../../../../public/images/tech/iris-title.png";
 import irisPhoto1 from "../../../../public/images/tech/iris-photo1.png";
 import irisPhoto2 from "../../../../public/images/tech/iris-photo2.png";
 import irisPhoto3 from "../../../../public/images/tech/iris-photo3.png";
-
+import irisPhoto4 from "../../../../public/images/tech/iris-photo4.png";
 export default function IrisMobile() {
     return (
         <div className="w-full px-4 py-4 flex flex-col gap-4">
@@ -27,10 +27,8 @@ export default function IrisMobile() {
 
                 <div className="absolute inset-0 bg-black/50 flex items-center px-4">
                     <p className="text-white text-sm leading-relaxed">
-                        ISO (국제표준화기구)는
-                        철도산업 품질경영시스템 요구사항인
-                        ISO/TS22163 을 제정하여
-                        철도분야에 적용합니다.
+                        ISO/TS22613 (IRIS) - 철도산업 국제 품질경영시스템은
+                        ISO(국제표준화기구)에서 제정하여 철도분야에서 적용하고 있는 글로벌스탠다드입니다.
                     </p>
                 </div>
             </div>
@@ -41,6 +39,7 @@ export default function IrisMobile() {
             </div>
 
             <img src={irisPhoto1} className="w-full h-48 object-contain" />
+            <img src={irisPhoto4} className="w-full h-48 object-contain" />
 
             <div className="flex flex-col gap-3 text-label text-sm">
                 <p>

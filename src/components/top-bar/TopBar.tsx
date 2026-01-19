@@ -15,7 +15,7 @@ export default function TopBar() {
         <div
             className={cn(
                 // ✅ 기존 PC / laptop 클래스 (절대 수정 X)
-                "w-full h-20 flex px-12 items-center justify-between pt-2 pb-2",
+                "w-full h-20 flex px-16 items-center justify-between pt-2 pb-2",
 
                 // ✅ tablet일 때만 보정
                 isTablet && "h-14 px-4"
@@ -50,7 +50,7 @@ export default function TopBar() {
                         isTablet && "text-sm pb-0"
                     )}
                 >
-                    철도시스템기술 인증전문회사
+                    철도시스템기술 인증 전문회사
                 </h1>}
             </div>
 

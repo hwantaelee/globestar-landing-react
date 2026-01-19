@@ -155,3 +155,12 @@
     animation: screen-shift-out 0.25s ease-in forwards;
   }
 }
+
+/* global.css / index.css / main.css */
+html, body {
+  font-family: Arial, 
+               "Apple SD Gothic Neo",
+               "Noto Sans KR",
+               "Malgun Gothic",
+               sans-serif;
+}

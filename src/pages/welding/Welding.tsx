@@ -103,10 +103,10 @@ function WeldingCard({
             <img src={img} className="w-full h-full object-cover" />
 
             <div className={cn(
-                "w-full h-full absolute top-0 left-0 text-white text-center text-lg flex flex-col",
-                isLaptop && "text-sm"
+                "w-full h-full absolute top-0 left-0 text-white text-center text-xl flex flex-col",
+                isLaptop && "text-lg"
             )}>
-                <p className="flex items-center justify-center h-1/5 bg-primary/70 font-semibold whitespace-pre-line">
+                <p className="flex items-center justify-center h-1/5 bg-primary/70 font-medium whitespace-pre-line">
                     {title}
                 </p>
                 <p className="flex items-center justify-center h-4/5 bg-black/50 whitespace-pre-line">

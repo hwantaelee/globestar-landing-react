@@ -67,7 +67,7 @@ export default function Map() {
                         이메일
                     </p>
                     <p className="text-label">
-                        gstarkorea@gmail.com
+                        drlee@globestartech.com
                     </p>
                 </div>
                 <div className="flex">

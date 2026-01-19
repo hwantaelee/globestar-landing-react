@@ -29,17 +29,22 @@ export default function En1090Mobile() {
                     className="w-full aspect-video object-fill"
                 />
                 <div className="absolute inset-0 flex">
-                    <div className="w-1/2 bg-primary/70 text-white flex flex-col items-center justify-center gap-2">
-                        <p className="text-xl">
+                    <div className="w-1/3 bg-primary/70 text-white flex flex-col items-center justify-center gap-2">
+                        <p className="text-base">
                             EN1090
                         </p>
-                        <p className="text-sm text-center">
+                        <p className="text-xs text-center">
                             강 구조물의
                             <br />
                             유럽적합성평가 및 인증
                         </p>
                     </div>
-                    <div className="w-1/2 bg-black/50" />
+                    <div className="w-2/3 h-full bg-black/50">
+                        <p className="h-full w-full text-white px-4 flex items-center justify-center text-sm">
+                            EN1090 은
+                            유럽표준화위원회 (CEN: European Committee for Standardization) 에서 제정한 건설제품표준 (CPR: Construction Product Regulation) 입니다.
+                        </p>
+                    </div>
                 </div>
             </div>
 

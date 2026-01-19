@@ -1,6 +1,7 @@
 import ramsBg from "../../../public/images/home/rams-bg.png";
 import isaSilBg from "../../../public/images/home/isa-sil-bg.png";
 import krts from "../../../public/images/krts.png";
+import iris from "../../../public/images/tech/iris.png";
 import cert from "../../../public/images/home/cert.png";
 import { useNavigate } from "react-router-dom";
 import { useDeviceStore } from "../../store/useDeviceStore";
@@ -91,13 +92,13 @@ export default function Home() {
                 <div className="w-full h-[33%] border border-divider flex justify-between px-8 py-4 bg-white">
                     <div className="flex flex-col justify-between w-[60%]">
                         <p className={cn(
-                            "text-3xl font-semibold text-label",
+                            "text-2xl font-semibold text-label",
                             isLaptop && "text-xl"
                         )}>
                             철도안전법승인
                         </p>
                         <p className={cn(
-                            "text-label-light text-sm",
+                            "text-label text-sm",
                             isLaptop && "text-xs"
                         )}>
                             철도안전법에 따라 철도용품 및 철도차량 제작자는
@@ -121,13 +122,13 @@ export default function Home() {
                 <div className="w-full h-[33%] border border-divider flex justify-between pl-8 pr-4 py-4 bg-white">
                     <div className="flex flex-col justify-between w-[50%]">
                         <p className={cn(
-                            "text-3xl font-semibold text-label",
+                            "text-2xl font-semibold text-label",
                             isLaptop && "text-xl"
                         )}>
                             용접인증
                         </p>
                         <p className={cn(
-                            "text-label-light text-sm",
+                            "text-label text-sm",
                             isLaptop && "text-xs"
                         )}>
                             - ISO3834<br />- EN1090<br />- EM15085
@@ -146,13 +147,13 @@ export default function Home() {
                 </div>
 
                 {/* IRIS */}
-                <div className="w-full h-[33%] flex gap-4">
-                    <div className="w-full bg-primary flex flex-col px-8 py-4 justify-between">
+                <div className="w-full h-[33%] flex gap-4  px-8 py-4 bg-primary">
+                    <div className="w-[60%] flex flex-col justify-between">
                         <div className="flex flex-col gap-2">
                             <p
                                 className={cn(
-                                    "text-3xl font-semibold text-white",
-                                    isLaptop && "text-xl"
+                                    "text-2xl font-semibold text-white",
+                                    isLaptop && "text-lg"
                                 )}
                                 style={{ textShadow: "0 2px 6px rgba(0,0,0,0.6)" }}
                             >
@@ -178,6 +179,7 @@ export default function Home() {
                             자세히보기 +
                         </div>
                     </div>
+                    <img src={iris} className="w-[40%] object-contain" />
                 </div>
             </div>
         </div>

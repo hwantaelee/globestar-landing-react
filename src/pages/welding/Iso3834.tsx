@@ -41,7 +41,7 @@ export default function Iso3834() {
                     <div className="w-full h-60 relative">
                         <img src={iso3834} className="w-full h-full object-fill" />
                         <div className="w-full h-full absolute flex top-0 left-0">
-                            <div className="w-[30%] h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
+                            <div className="w-1/3 h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
                                 <p className={cn(
                                     "text-2xl",
                                     isLaptop && "text-xl"
@@ -55,7 +55,13 @@ export default function Iso3834() {
                                     용접품질보증인증
                                 </p>
                             </div>
-                            <div className="w-2/3 h-full bg-black/50" />
+                            <div className="w-2/3 h-full bg-black/50 ">
+                                <p className="h-full w-full text-white px-24 flex items-center justify-center text-lg">
+                                    ISO3834는
+                                    <br /><br />
+                                    ISO (international Organization for Standardization - 국제표준화기구)에 의해 제정된 국제용접품질표준입니다.
+                                </p>
+                            </div>
                         </div>
                     </div>
 
@@ -72,10 +78,10 @@ export default function Iso3834() {
                         isLaptop && "text-sm"
                     )}>
                         <p>
-                            ISO3834 는 ISO (International Organization for Standardization-국제표준화기구)에 의해 제정된 국제용접품질표준입니다.
+                            ISO3834 는 많은 제작사들이 용접품질관리에 대해 ISO9001 인증으로도 보증하지 못하는 용접품질관리시스템의 개선, 작업능력향상, 용접품질관리 등의 용접능력을 보증을 위한 요구사항입니다
                         </p>
                         <p>
-                            ISO3834 는 많은 제작사들이 용접품질관리에 대해 ISO9001 인증으로도 보증하지 못하는 용접품질관리시스템의 개선, 작업능력향상, 용접품질관리 등의 용접능력을 보증을 위한 요구사항입니다
+                            IWE 과정의 교수진으로 구성된 국내 최고의 전문가들은 용접인증을 신속히 수행합니다.
                         </p>
                     </div>
                 </div>

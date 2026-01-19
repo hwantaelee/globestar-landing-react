@@ -24,16 +24,19 @@ import sungsin from "../../../public/images/client/sungsin-rst.png";
 import snt from "../../../public/images/client/snt.jpg";
 import kps from "../../../public/images/client/he-kps.png";
 import dongsung from "../../../public/images/client/dongsung.jpeg";
-import sejong from "../../../public/images/client/sejong-tech.jpg";
+import sejong from "../../../public/images/client/sejong.png";
 import kcwi from "../../../public/images/client/kcwi.jpg";
-import hyunsung from "../../../public/images/client/hyunsung.webp";
+import hyunsung from "../../../public/images/client/hyunsung.png";
 import koino from "../../../public/images/client/koino.jpeg";
 import kosteel from "../../../public/images/client/kosteel.jpg";
-import hanyung from "../../../public/images/client/hanyung.jpg";
+import hanyung from "../../../public/images/client/hanyung.png";
 import sehwa from "../../../public/images/client/sehwa.png";
 import travis from "../../../public/images/client/travis.jpg";
-import kpc from "../../../public/images/client/kpc.png";
+import kpcm from "../../../public/images/client/kpcm.png";
 import ritco from "../../../public/images/client/ritco.png";
+import heungjin from "../../../public/images/client/heungjin.png";
+import daesang from "../../../public/images/client/daesang.png";
+import si from "../../../public/images/client/si.png";
 import { cn } from "../../utils/cn";
 import { useDeviceStore } from "../../store/useDeviceStore";
 
@@ -112,25 +115,20 @@ export default function Clients() {
                 ]} />
                 <ClientGridRow clients={[
                     { ci: hyunsung, clientName: "현성기업" },
-                    { ci: hyunsung, clientName: "흥진산업" },// 이미지 교체
+                    { ci: heungjin, clientName: "흥진산업" },
                     { ci: koino, clientName: "건흥전기" },
-                    { ci: koino, clientName: "대상중공업" },// 이미지 교체
+                    { ci: daesang, clientName: "대상중공업" },
                 ]} />
                 <ClientGridRow clients={[
                     { ci: kosteel, clientName: "코스틸" },
                     { ci: hanyung, clientName: "한영산업" },
-                    { ci: hanyung, clientName: "기득산업" }, // 이미지 교체 
-                    { ci: hanyung, clientName: "삼성콘크리트" },// 이미지 교체
-                ]} />
-                <ClientGridRow clients={[
+                    { ci: si, clientName: "삼성산업" },
                     { ci: sehwa, clientName: "세화" },
-                    { ci: travis, clientName: "세한트라비스" },
-                    { ci: travis, clientName: "에코큐빅" }, // 이미지 교체 
-                    { ci: travis, clientName: "가나코퍼레이션" },// 이미지 교체
                 ]} />
                 <ClientGridRow clients={[
-                    { ci: kpc, clientName: "KPC" },
-                    { ci: ritco, clientName: "리트코" },
+                    { ci: travis, clientName: "세한트라비스" },
+                    { ci: kpcm, clientName: "KPC" },
+                    { ci: ritco, clientName: "리트코" }
                 ]} />
             </div>
         </div>

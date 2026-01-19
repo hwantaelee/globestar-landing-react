@@ -84,9 +84,9 @@ function MobileCard({
             onClick={onClick}
         >
             <img src={img} className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white px-4 text-center">
-                <p className="font-semibold text-base">{title}</p>
-                <p className="text-sm mt-1">{desc}</p>
+            <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white px-4 text-center text-lg">
+                <p className="font-medium">{title}</p>
+                <p className="mt-1">{desc}</p>
             </div>
         </div>
     );

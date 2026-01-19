@@ -7,6 +7,8 @@ import en15085 from "../../../public/images/welding/en15085.png";
 import wps from "../../../public/images/welding/wps.png";
 import wpsPhoto1 from "../../../public/images/welding/wps-photo1.png";
 import wpsPhoto2 from "../../../public/images/welding/wps-photo2.png";
+import wpsPhoto3 from "../../../public/images/welding/wps-photo3.png";
+import wpsPhoto4 from "../../../public/images/welding/wps-photo4.png";
 
 import { useDeviceStore } from "../../store/useDeviceStore";
 import { cn } from "../../utils/cn";
@@ -42,7 +44,7 @@ export default function Wps() {
                     <div className="w-full h-60 relative">
                         <img src={wps} className="w-full h-full object-fill" />
                         <div className="w-full h-full absolute flex top-0 left-0">
-                            <div className="w-[30%] h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
+                            <div className="w-1/3 h-full bg-primary/70 text-white flex flex-col items-center gap-4 justify-center">
                                 <p className={cn(
                                     "text-2xl",
                                     isLaptop && "text-xl"
@@ -58,7 +60,11 @@ export default function Wps() {
                                     용접사 및 WPS 승인
                                 </p>
                             </div>
-                            <div className="w-2/3 h-full bg-black/50" />
+                            <div className="w-2/3 h-full bg-black/50 ">
+                                <p className="h-full w-full text-white px-24 flex text-center items-center justify-center text-lg">
+                                    IWE 국제용접기술사, 용접사승인, WPS/WPQR,  ISO승인, EN승인, AWS, ASME 승인 컨설팅 및 인증
+                                </p>
+                            </div>
                         </div>
                     </div>
 
@@ -66,8 +72,8 @@ export default function Wps() {
                     <div className="flex h-60 w-full justify-center px-10 gap-4">
                         <img src={wpsPhoto1} className="w-[25%] h-full object-fill" />
                         <img src={wpsPhoto2} className="w-[25%] h-full object-fill" />
-                        <img src={iso3834} className="w-[25%] h-full object-fill" />
-                        <img src={en15085} className="w-[25%] h-full object-fill" />
+                        <img src={wpsPhoto3} className="w-[25%] h-full object-fill" />
+                        <img src={wpsPhoto4} className="w-[25%] h-full object-fill" />
                     </div>
 
                     {/* 본문 */}
@@ -76,7 +82,7 @@ export default function Wps() {
                         isLaptop && "text-sm"
                     )}>
                         <p>
-                            글로벌시장 진출을 위한 용접사 및 WPS 승인을 신속히 해결해 드립니다.
+                            글로벌시장 진출을 위한 고객사의 용접인증을 신속히 해결해 드립니다.
                         </p>
                     </div>
                 </div>

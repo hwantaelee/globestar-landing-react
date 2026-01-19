@@ -61,7 +61,7 @@ export default function IsaSil() {
                     </div>
 
                     {/* 이미지 */}
-                    <div className="flex h-80 w-full justify-center px-10 gap-8">
+                    <div className="flex h-60 w-full justify-center px-10 gap-8">
                         <img src={sil3} className="w-[40%] h-full object-fill" />
                         <img src={sil4} className="w-[40%] h-full object-fill" />
                     </div>
@@ -86,6 +86,7 @@ export default function IsaSil() {
                         isLaptop={isLaptop}
                         items={[
                             `철도표준 EN50126(IEC62278), EN50128(IEC62279), EN50129(IEC62425) 시리즈에 따른 시스템/서브시스템 개발주기에 따라 다음 컨설팅을 수행합니다.
+                            
                             * SIL 인증을 위한 계획 수립
                             * 안전문서 작성 및 평가
                             * 안전 및 품질 심사 컨설팅

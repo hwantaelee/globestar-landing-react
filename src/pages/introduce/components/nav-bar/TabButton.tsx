@@ -19,7 +19,7 @@ export default function TabButton({ url, title, end = false }: Props) {
             className={({ isActive }) =>
                 cn(
                     "flex-1 px-4 h-12 flex items-center text-lg justify-center font-medium transition-colors bg-white",
-                    isTablet && "text-xs",
+                    isTablet && "text-xs h-fit",
                     isActive ? "text-primary" : "text-label"
                 )
             }

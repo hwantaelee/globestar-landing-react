@@ -5,6 +5,7 @@ import TechNavBar from "./components/nav-bar/TechNavBar";
 import ramsTitle from "../../../public/images/tech/rams-title.png";
 import education from "../../../public/images/tech/rams-education.png";
 import photo from "../../../public/images/tech/rams-photo.png";
+import photo2 from "../../../public/images/tech/rams-photo2.png";
 import { useDeviceStore } from "../../store/useDeviceStore";
 import TechMobile from "./mobile/TechMobile";
 import { cn } from "../../utils/cn";
@@ -58,9 +59,10 @@ export default function Tech() {
                     </div>
 
                     {/* 이미지 */}
-                    <div className="flex h-80 w-full justify-center px-10 gap-8">
-                        <img src={education} className="w-[40%] h-full object-fill" />
-                        <img src={photo} className="w-[40%] h-full object-fill" />
+                    <div className="flex h-60 w-full justify-center px-10 gap-8">
+                        <img src={education} className="w-[33%] h-full object-fill" />
+                        <img src={photo} className="w-[33%] h-full object-fill" />
+                        <img src={photo2} className="w-[33%] h-full object-fill" />
                     </div>
 
                     {/* 섹션들 */}

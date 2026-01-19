@@ -3,6 +3,8 @@
 import ramsTitle from "../../../../public/images/tech/rams-title.png";
 import education from "../../../../public/images/tech/rams-education.png";
 import photo from "../../../../public/images/tech/rams-photo.png";
+import photo2 from "../../../../public/images/tech/rams-photo2.png";
+
 import Breadcrumb from "../../../components/Breadcrumb";
 import TechNavBar from "../components/nav-bar/TechNavBar";
 
@@ -56,6 +58,9 @@ export default function TechMobile() {
                 />
                 <img
                     src={photo}
+                    className="w-full h-48 object-fill"
+                />
+                <img src={photo2}
                     className="w-full h-48 object-fill"
                 />
             </div>
