@@ -2,8 +2,6 @@ import Breadcrumb from "../../components/Breadcrumb";
 import PageTitle from "../../components/PageTitle";
 import WeldingNavBar from "./components/nav-bar/WeldingNavBar";
 
-import iso3834 from "../../../public/images/welding/iso3834.png";
-import en15085 from "../../../public/images/welding/en15085.png";
 import wps from "../../../public/images/welding/wps.png";
 import wpsPhoto1 from "../../../public/images/welding/wps-photo1.png";
 import wpsPhoto2 from "../../../public/images/welding/wps-photo2.png";
