@@ -27,7 +27,7 @@ export default function SeMobile() {
                     className="w-full aspect-video object-cover"
                 />
                 <div className="absolute inset-0 bg-black/50 flex items-center px-4">
-                    <p className="text-white text-sm leading-relaxed">
+                    <p className="text-white text-[10px] leading-relaxed">
                         시스템 엔지니어링 (Systems Engineering)은
                         철도 프로젝트에서 성공적인 사업 실현과 전체 시스템의 조화를 위해 시스템간 발생할 수 있는 문제점 관리를 통해 사전에 해결하고 계약조건을 만족하여 설계, 제작, 검사, 시험 및 시운전단계를 포함하여 각 서브시스템이 통합될 때 요구된 성능을 충족시키도록 관리합니다.
                     </p>
@@ -51,7 +51,7 @@ export default function SeMobile() {
 
                 <p>
                     <span className="font-black">30년 이상 철도시스템을</span>
-                    을 30년 이상 경험한 전문 기술인력을 활용하여 철도시스템 발주사가 설정한 목표를 프로젝트 진행단계에서 수행해야 하는 업무를 정의하여 문서화하고, 시스템 엔지니어링 개별분야 엔지니어들이 유기적으로 협력하여 시스템 엔지니어링 전체분야의 진행사항과 중요사항을 공유하며 개별 서브시스템을 전체로 통합했을 때 관련 서브시스템끼리 물리적, 성능적으로 적합하도록 발주사를 지원하고 공급사를 관리합니다.
+                    경험한 전문 기술인력을 활용하여 철도시스템 발주사가 설정한 목표를 프로젝트 진행단계에서 수행해야 하는 업무를 정의하여 문서화하고, 시스템 엔지니어링 개별분야 엔지니어들이 유기적으로 협력하여 시스템 엔지니어링 전체분야의 진행사항과 중요사항을 공유하며 개별 서브시스템을 전체로 통합했을 때 관련 서브시스템끼리 물리적, 성능적으로 적합하도록 발주사를 지원하고 공급사를 관리합니다.
                 </p>
             </div>
 

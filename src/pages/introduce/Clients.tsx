@@ -18,7 +18,7 @@ import samjung from "../../../public/images/client/samjung-tech.png";
 import hyundaiElevator from "../../../public/images/client/hyundai-elevator.jpg";
 import hyundaiHeavyIndustries from "../../../public/images/client/hyundai-heavy-industries.png";
 import hyundaiElectric from "../../../public/images/client/hyundai-electric.png";
-import sean from "../../../public/images/client/se-an.jpeg";
+import sean from "../../../public/images/client/se-an.png";
 import daeho from "../../../public/images/client/daeho-al.jpg";
 import sungsin from "../../../public/images/client/sungsin-rst.png";
 import snt from "../../../public/images/client/snt.jpg";
@@ -102,7 +102,7 @@ export default function Clients() {
                     { ci: hyundaiElectric, clientName: "현대일렉트릭앤에너지" },
                 ]} />
                 <ClientGridRow clients={[
-                    { ci: sean, clientName: "세안정기", className: 'object-contain scale-125' },
+                    { ci: sean, clientName: "세안정기", className: 'object-contain' },
                     { ci: daeho, clientName: "대호에이엘" },
                     { ci: sungsin, clientName: "성신 RST" },
                     { ci: snt, clientName: "S&T" },

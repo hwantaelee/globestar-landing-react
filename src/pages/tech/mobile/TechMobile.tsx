@@ -35,8 +35,8 @@ export default function TechMobile() {
                 />
 
                 <div className="absolute inset-0 bg-black/50 flex flex-col justify-center px-4">
-                    <p className="text-white text-sm leading-relaxed">
-                        RAMS (Reliability, Availability, Maintainability, Safety)는
+                    <p className="text-white text-[10px] leading-relaxed">
+                        RAMS는
                         신뢰성 (Reliability), 가용성 (Availability), 유지보수성 (Maintainability), 안전성 (Safety) 으로
                         철도표준인 EN50126(IEC62278), EN50128(IEC62279), EN50129(IEC62425) 에 따른
                         철도 프로젝트의 가용성 및 안전성 예측 및 입증 기술입니다.

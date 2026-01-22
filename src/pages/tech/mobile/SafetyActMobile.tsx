@@ -23,13 +23,13 @@ export default function SafetyActMobile() {
             </p>
 
             {/* HERO */}
-            <div className="relative">
+            <div className="relative h-fit">
                 <img
                     src={safetyActTitle}
-                    className="w-full aspect-video object-cover"
+                    className="h-full aspect-video object-cover"
                 />
                 <div className="absolute inset-0 bg-black/50 flex items-center px-4">
-                    <p className="text-white text-sm leading-relaxed">
+                    <p className="text-white text-[10px] leading-relaxed">
                         철도차량 및 철도용품은 철도안전법에 따라 형식승인 및 제작자승인을 받아야 합니다.<br />
                         형식승인은 유럽의 TSI (Technical Specification for Interoperability) <br />
                         제작자승인은 ISO/TS22163(IRIS) 을 반영하여 제정된 기술기준에 따라

@@ -11,7 +11,7 @@ export default function TechNavBar() {
             "w-full h-14 bg-white flex items-center",
 
             // tablet에서만 2줄 허용
-            isTablet && "flex-wrap h-auto h-fit"
+            isTablet && "flex-wrap h-fit"
         )}
     >
         <TabButton url="/tech" title="RAMS" end={true} />

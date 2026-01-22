@@ -20,7 +20,7 @@ export default function TabButton({ url, title, end = false }: Props) {
                 cn(
                     "flex-1 px-4 h-12 flex items-center text-lg justify-center font-medium transition-colors bg-white",
                     isLaptop && "text-sm",
-                    isTablet && "text-[10px] h-fit",
+                    isTablet && "text-[10px] h-fit px-0",
                     isActive ? "text-primary" : "text-label"
                 )
             }

@@ -29,7 +29,7 @@ export default function WeldingMobile() {
                     <p className="text-white text-sm text-center leading-relaxed">
                         "글로브스타는 소재, 모재, 용접사, 검사원, WPS,
                         압력용기지침(PED), CE마킹 및
-                        <br /><br />
+                        <br />
                         용접분야 국제표준 인증을 위한 기술컨설팅과
                         인증심사로 고객사의 해외시장 개척을 지원합니다."
                     </p>

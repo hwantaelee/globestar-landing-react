@@ -22,7 +22,7 @@ export default function TabButton({ url, title, end = false }: Props) {
                     "flex-1 px-4 h-12 flex items-center justify-center font-medium transition-colors bg-white",
 
                     // tablet에서 3개씩
-                    isTablet && "w-1/3 flex-none text-xs h-8",
+                    isTablet && "w-1/3 flex-none text-[10px] h-8",
 
                     isActive ? "text-primary" : "text-label"
                 )
