@@ -44,7 +44,7 @@ export default function Iris() {
                         <img src={irisTitle} className="w-full h-full object-cover" />
 
                         <div className="w-full h-full absolute flex flex-col top-0 left-0">
-                            <div className="w-full h-4/5 flex items-center gap-8 px-24 bg-black/50">
+                            <div className="w-full h-4/5 flex items-center justify-between gap-8 px-24 bg-black/50">
                                 <p className={cn(
                                     "w-[70%] h-full text-white flex items-center text-lg",
                                     isLaptop && "text-sm"
@@ -54,8 +54,8 @@ export default function Iris() {
                                     ISO(국제표준화기구)에서 제정하여 철도분야에서 적용하고 있는 글로벌스탠다드입니다.
                                 </p>
 
-                                <div className="w-[30%] h-full flex justify-center items-center">
-                                    <img src={iris} className="h-4/5 object-contain" />
+                                <div className="w-[20%] h-[70%] flex justify-end">
+                                    <img src={iris} className="object-contain" />
                                 </div>
                             </div>
 
@@ -87,7 +87,7 @@ export default function Iris() {
                         <p>
                             ISO/TS22163 표준은 고도화된 품질관리, 향상된 프로세스 그리고 효율적인 제품품질을 보장하는데 목적이 있습니다. 이를 위해 제품 안전전략, 프로젝트 및 시리즈 관리, RAMS 및 LCC 와 같은 기준들이 상당히 개선된 내부감사와 이해관계자의 효과적이고 효율적인 업무수행을 보장합니다.
                             <br />
-                            300여개의 질문으로 구성된 평가시트에 따른 고객관점의 수행레벨 평가. 거북이모형(터틀차트)도입, 일부 프로세스에 더해 Process Effectiveness Assessment Report (PEAR) 방법론을 적용합니다.
+                            300여개의 질문으로 구성된 평가시트에 따른 고객관점의 수행레벨 평가, 거북이모형(터틀차트)도입, 일부 프로세스에 더해 Process Effectiveness Assessment Report (PEAR) 방법론을 적용합니다.
                         </p>
 
                         <p>

@@ -17,7 +17,7 @@ export default function TechNavBar() {
         <TabButton url="/tech" title="RAMS" end={true} />
         <TabButton url="/tech/isa-sil" title="ISA/SIL인증" />
         <TabButton url="/tech/safety-act" title="철도안전법승인" />
-        <TabButton url="/tech/se" title="SE" />
+        <TabButton url="/tech/se" title="시스템 엔지니어링" />
         <TabButton url="/tech/iris" title="ISO/TS22163(IRIS)" />
         <TabButton url="/tech/tsi" title="TSI" />
     </aside>

@@ -3,6 +3,7 @@ import TechNavBar from "../components/nav-bar/TechNavBar";
 
 import safetyActTitle from "../../../../public/images/tech/safety-act-title.png";
 import typeApproval1 from "../../../../public/images/tech/type-approval1.png";
+import safetyActPhoto from "../../../../public/images/tech/safety-act-photo.png";
 import typeApproval2 from "../../../../public/images/tech/type-approval2.png";
 import { cn } from "../../../utils/cn";
 
@@ -30,9 +31,10 @@ export default function SafetyActMobile() {
                 <div className="absolute inset-0 bg-black/50 flex items-center px-4">
                     <p className="text-white text-sm leading-relaxed">
                         철도차량 및 철도용품은 철도안전법에 따라 형식승인 및 제작자승인을 받아야 합니다.<br />
-                        형식승인은 유럽의 TSI (Technical Specification for Interoperability).
+                        형식승인은 유럽의 TSI (Technical Specification for Interoperability) <br />
                         제작자승인은 ISO/TS22163(IRIS) 을 반영하여 제정된 기술기준에 따라
-                        검사를 받고 국토교통부 장관이 승인증명서를 발행합니다.
+                        검사를 받고 <br />
+                        국토교통부 장관이 승인증명서를 발행합니다.
                     </p>
                 </div>
             </div>
@@ -42,15 +44,16 @@ export default function SafetyActMobile() {
             </div>
 
             <div className="flex flex-col gap-4">
-                <img src={typeApproval1} className="w-full h-44 object-fill" />
-                <img src={typeApproval2} className="w-full h-44 object-fill" />
+                <img src={typeApproval1} className="w-full h-52 object-fill" />
+                <img src={safetyActPhoto} className="w-full h-52 object-fill" />
+                <img src={typeApproval2} className="w-full h-52 object-fill" />
             </div>
 
-            <p className={cn("w-full text-lg text-label font-bold")}>
+            <p className={cn("w-full text-lg text-primary font-bold")}>
                 형식승인
             </p>
             <Section title="형식승인검사"
-                text="철도차량/용품의 설계가 기술기준에 적합한 지를 검증하기 위해 수행되는 설계적합성검사, 합치성검사, 용품형식시험을 말한다." />
+                text="철도차량/용품의 설계가 기술기준에 적합한 지를 검증하기 위해 수행되는 설계적합성검사, 합치성검사, 용품형식시험을 말합니다." />
             <Section title="설계적합성검사"
                 text="철도차량/용품의 설계가 기술기준에 적합한지를 검증하고 이를 객관적으로 문서화하는 것을 말합니다." />
             <Section title="합치성검사"
@@ -58,7 +61,7 @@ export default function SafetyActMobile() {
             <Section title="용품형식시험"
                 text="철도차량/용품의 부품단계, 구성품단계, 완성품단계, 시운전단계에서 기술기준에 적합한지를 확인하는 시험을 말합니다." />
 
-            <p className={cn("w-full text-lg text-label font-bold")}>
+            <p className={cn("w-full text-lg text-primary font-bold")}>
                 제작자승인
             </p>
             <Section title="제작자승인검사"

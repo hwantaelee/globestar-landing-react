@@ -49,7 +49,7 @@ export default function IrisMobile() {
                 <p>
                     ISO/TS22163 표준은 고도화된 품질관리, 향상된 프로세스 그리고 효율적인 제품품질을 보장하는데 목적이 있습니다. 이를 위해 제품 안전전략, 프로젝트 및 시리즈 관리, RAMS 및 LCC 와 같은 기준들이 상당히 개선된 내부감사와 이해관계자의 효과적이고 효율적인 업무수행을 보장합니다.
                     <br />
-                    300여개의 질문으로 구성된 평가시트에 따른 고객관점의 수행레벨 평가. 거북이모형(터틀차트)도입, 일부 프로세스에 더해 Process Effectiveness Assessment Report (PEAR) 방법론을 적용합니다.
+                    300여개의 질문으로 구성된 평가시트에 따른 고객관점의 수행레벨 평가, 거북이모형(터틀차트)도입, 일부 프로세스에 더해 Process Effectiveness Assessment Report (PEAR) 방법론을 적용합니다.
                 </p>
 
                 <p>

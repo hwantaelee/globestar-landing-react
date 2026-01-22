@@ -2,7 +2,7 @@ import ramsBg from "../../../public/images/home/rams-bg.png";
 import isaSilBg from "../../../public/images/home/isa-sil-bg.png";
 import krts from "../../../public/images/krts.png";
 import iris from "../../../public/images/tech/iris.png";
-import cert from "../../../public/images/home/cert.png";
+import cert from "../../../public/images/home/cert-white.png";
 import { useNavigate } from "react-router-dom";
 import { useDeviceStore } from "../../store/useDeviceStore";
 import { cn } from "../../utils/cn";
@@ -89,7 +89,7 @@ export default function Home() {
             {/* 우측 영역 */}
             <div className="w-[32%] flex flex-col gap-4 relative">
                 {/* 철도안전법 승인 */}
-                <div className="w-full h-[33%] border border-divider flex justify-between px-8 py-4 bg-white">
+                <div className="w-full h-[33%] border border-divider flex justify-between px-6 py-4 bg-white">
                     <div className="flex flex-col justify-between w-[60%]">
                         <p className={cn(
                             "text-2xl font-semibold text-label",
@@ -119,23 +119,23 @@ export default function Home() {
                 </div>
 
                 {/* 용접인증 */}
-                <div className="w-full h-[33%] border border-divider flex justify-between pl-8 pr-4 py-4 bg-white">
-                    <div className="flex flex-col justify-between w-[50%]">
+                <div className="w-full h-[33%] flex justify-between px-6 py-4 bg-primary-light">
+                    <div className="flex flex-col justify-between w-[60%]">
                         <p className={cn(
-                            "text-2xl font-semibold text-label",
+                            "text-2xl font-semibold text-white",
                             isLaptop && "text-xl"
                         )}>
                             용접인증
                         </p>
                         <p className={cn(
-                            "text-label text-sm",
+                            "text-white text-sm",
                             isLaptop && "text-xs"
                         )}>
-                            - ISO3834<br />- EN1090<br />- EM15085
+                            - ISO3834<br />- EN15085<br />- EN1090
                         </p>
                         <div
                             className={cn(
-                                "text-white text-sm bg-primary w-fit h-fit p-2 cursor-pointer",
+                                "text-white text-sm bg-primary-light border border-white w-fit h-fit p-2 cursor-pointer",
                                 isLaptop && "text-xs"
                             )}
                             onClick={() => navigate("/welding")}
@@ -143,11 +143,11 @@ export default function Home() {
                             자세히보기 +
                         </div>
                     </div>
-                    <img src={cert} className="w-[50%] object-contain" />
+                    <img src={cert} className="w-[40%] object-contain" />
                 </div>
 
                 {/* IRIS */}
-                <div className="w-full h-[33%] flex gap-4  px-8 py-4 bg-primary">
+                <div className="w-full h-[33%] flex gap-4  px-6 py-4 bg-primary">
                     <div className="w-[60%] flex flex-col justify-between">
                         <div className="flex flex-col gap-2">
                             <p

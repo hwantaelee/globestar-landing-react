@@ -2,7 +2,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import TechNavBar from "../components/nav-bar/TechNavBar";
 
 import tsiTitle from "../../../../public/images/tech/tsi-title.png";
-import tsiPhoto1 from "../../../../public/images/tech/tsi-photo1.png";
+import tsiPhoto from "../../../../public/images/tech/tsi-photo.png";
 
 export default function TsiMobile() {
     return (
@@ -50,7 +50,7 @@ export default function TsiMobile() {
             </div>
 
             <img
-                src={tsiPhoto1}
+                src={tsiPhoto}
                 className="w-full h-48 object-contain"
             />
         </div>

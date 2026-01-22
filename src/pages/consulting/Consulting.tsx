@@ -4,6 +4,7 @@ import PageTitle from "../../components/PageTitle";
 import consultingTitle from "../../../public/images/consulting/consulting-title.png";
 import consultingPhoto1 from "../../../public/images/consulting/consulting-photo1.png";
 import consultingPhoto2 from "../../../public/images/consulting/consulting-photo2.png";
+import consultingPhoto3 from "../../../public/images/consulting/consulting-photo3.png";
 
 import { useDeviceStore } from "../../store/useDeviceStore";
 import { cn } from "../../utils/cn";
@@ -52,8 +53,9 @@ export default function Consulting() {
 
                     {/* 이미지 */}
                     <div className="flex h-60 w-full justify-center px-10 gap-4">
-                        <img src={consultingPhoto1} className="w-[40%] h-full object-fill" />
-                        <img src={consultingPhoto2} className="w-[40%] h-full object-fill" />
+                        <img src={consultingPhoto1} className="w-[33%] h-full object-fill" />
+                        <img src={consultingPhoto2} className="w-[33%] h-full object-fill" />
+                        <img src={consultingPhoto3} className="w-[33%] h-full object-fill" />
                     </div>
 
                     {/* 리스트 */}

@@ -5,6 +5,7 @@ import { cn } from "../../../../utils/cn";
 interface Client {
     ci: string;
     clientName: string;
+    className?: string;
 }
 
 interface Props {
@@ -44,7 +45,9 @@ export default function ClientGridRow({ clients }: Props) {
                             isLaptop && "h-12",
 
                             // Tablet
-                            isTablet && "h-8"
+                            isTablet && "h-8",
+
+                            client.className ?? ""
                         )}
                     />
                     <p className={cn(

@@ -3,7 +3,7 @@ import PageTitle from "../../components/PageTitle";
 import TechNavBar from "./components/nav-bar/TechNavBar";
 
 import seTitle from "../../../public/images/tech/se-title.png";
-import tsiPhoto1 from "../../../public/images/tech/tsi-photo1.png";
+import sePhoto from "../../../public/images/tech/se-photo.png";
 
 
 import { useDeviceStore } from "../../store/useDeviceStore";
@@ -32,7 +32,7 @@ export default function Se() {
                     "text-2xl text-primary pl-30",
                     isLaptop && "text-xl"
                 )}>
-                    ・ SE
+                    ・ 시스템 엔지니어링
                 </p>
 
                 <div className="w-full flex flex-col gap-8 items-center px-30 pb-30">
@@ -76,7 +76,7 @@ export default function Se() {
                         </p>
 
                         <p>
-                            <span className="font-black">30년 이상의 철도 경험</span>
+                            <span className="font-black">30년 이상 철도시스템을</span>
                             을 30년 이상 경험한 전문 기술인력을 활용하여 철도시스템 발주사가 설정한 목표를 프로젝트 진행단계에서 수행해야 하는 업무를 정의하여 문서화하고, 시스템 엔지니어링 개별분야 엔지니어들이 유기적으로 협력하여 시스템 엔지니어링 전체분야의 진행사항과 중요사항을 공유하며 개별 서브시스템을 전체로 통합했을 때 관련 서브시스템끼리 물리적, 성능적으로 적합하도록 발주사를 지원하고 공급사를 관리합니다.
                         </p>
                     </div>
@@ -89,9 +89,9 @@ export default function Se() {
                             시스템 엔지니어링 관리분야 (예시)
                         </p>
 
-                        <div className="flex justify-between gap-8">
+                        <div className="flex justify-between gap-4">
                             <div className={cn(
-                                "w-1/2 flex flex-col text-label gap-1",
+                                "w-[42%] flex flex-col text-label gap-1",
                                 isLaptop && "text-sm"
                             )}>
                                 {[
@@ -116,8 +116,8 @@ export default function Se() {
                                 ))}
                             </div>
 
-                            <div className="w-1/2 flex items-center justify-center">
-                                <img src={tsiPhoto1} className="w-full object-fill h-60" />
+                            <div className="flex-1 flex items-end justify-end">
+                                <img src={sePhoto} className="w-full object-fill h-80 object-bottom-right" />
                             </div>
                         </div>
                     </div>

@@ -5,6 +5,7 @@ import TechNavBar from "./components/nav-bar/TechNavBar";
 import krts from "../../../public/images/krts.png";
 import safetyActTitle from "../../../public/images/tech/safety-act-title.png";
 import typeApproval1 from "../../../public/images/tech/type-approval1.png";
+import safetyActPhoto from "../../../public/images/tech/safety-act-photo.png";
 import typeApproval2 from "../../../public/images/tech/type-approval2.png";
 import { useDeviceStore } from "../../store/useDeviceStore";
 import { cn } from "../../utils/cn";
@@ -42,19 +43,20 @@ export default function SafetyAct() {
                         <img src={safetyActTitle} className="w-full h-full object-cover" />
 
                         <div className="w-full h-full absolute flex flex-col top-0 left-0">
-                            <div className="w-full h-4/5 flex items-center gap-8 px-24 bg-black/50">
+                            <div className="w-full h-4/5 flex items-center justify-between gap-8 px-24 bg-black/50">
                                 <p className={cn(
                                     "w-[70%] text-white flex items-center text-lg",
                                     isLaptop && "text-sm"
                                 )}>
                                     철도차량 및 철도용품은 철도안전법에 따라 형식승인 및 제작자승인을 받아야 합니다.<br />
-                                    형식승인은 유럽의 TSI (Technical Specification for Interoperability).
+                                    형식승인은 유럽의 TSI (Technical Specification for Interoperability) <br />
                                     제작자승인은 ISO/TS22163(IRIS) 을 반영하여 제정된 기술기준에 따라
-                                    검사를 받고 국토교통부 장관이 승인증명서를 발행합니다.
+                                    검사를 받고 <br />
+                                    국토교통부 장관이 승인증명서를 발행합니다.
                                 </p>
 
-                                <div className="w-[30%] flex justify-center">
-                                    <img src={krts} className="h-4/5 object-contain" />
+                                <div className="w-[20%] h-[70%] flex justify-end">
+                                    <img src={krts} className="object-contain" />
                                 </div>
                             </div>
 
@@ -69,18 +71,19 @@ export default function SafetyAct() {
 
                     {/* 이미지 */}
                     <div className="flex h-60 w-full justify-center px-10 gap-8">
-                        <img src={typeApproval1} className="w-[35%] h-full object-fill" />
-                        <img src={typeApproval2} className="w-[35%] h-full object-fill" />
+                        <img src={typeApproval1} className="w-[33%] h-full object-fill" />
+                        <img src={safetyActPhoto} className="w-[33%] h-full object-fill" />
+                        <img src={typeApproval2} className="w-[33%] h-full object-fill" />
                     </div>
 
                     <p className={cn(
-                        "w-full text-xl text-label font-bold px-10",
+                        "w-full text-xl text-primary font-bold px-10",
                         isLaptop && "text-lg"
                     )}>
                         형식승인
                     </p>
                     <Section title="형식승인검사" isLaptop={isLaptop}
-                        text="철도차량/용품의 설계가 기술기준에 적합한 지를 검증하기 위해 수행되는 설계적합성검사, 합치성검사, 용품형식시험을 말한다." />
+                        text="철도차량/용품의 설계가 기술기준에 적합한 지를 검증하기 위해 수행되는 설계적합성검사, 합치성검사, 용품형식시험을 말합니다." />
                     <Section title="설계적합성검사" isLaptop={isLaptop}
                         text="철도차량/용품의 설계가 기술기준에 적합한지를 검증하고 이를 객관적으로 문서화하는 것을 말합니다." />
                     <Section title="합치성검사" isLaptop={isLaptop}
@@ -89,7 +92,7 @@ export default function SafetyAct() {
                         text="철도차량/용품의 부품단계, 구성품단계, 완성품단계, 시운전단계에서 기술기준에 적합한지를 확인하는 시험을 말합니다." />
 
                     <p className={cn(
-                        "w-full text-xl text-label font-bold px-10",
+                        "w-full text-xl text-primary font-bold px-10",
                         isLaptop && "text-lg"
                     )}>
                         제작자승인

@@ -53,17 +53,17 @@ export default function IsaSil() {
                             <p className={cn("w-full h-1/5 bg-primary text-white px-8 flex items-center justify-center",
                                 isLaptop && "text-xs"
                             )}>
-                                “글로브스타 테크놀러지에서는 유럽인증기관에서의
+                                “글로브스타는 유럽인증기관에서의
                                 다양한 시스템 수행 경험과 관련자료를 통해
-                                인증을 원스톱으로 해결합니다.”
+                                SIL 인증을 원스톱으로 해결합니다.”
                             </p>
                         </div>
                     </div>
 
                     {/* 이미지 */}
                     <div className="flex h-60 w-full justify-center px-10 gap-8">
-                        <img src={sil3} className="w-[40%] h-full object-fill" />
                         <img src={sil4} className="w-[40%] h-full object-fill" />
+                        <img src={sil3} className="w-[40%] h-full object-fill" />
                     </div>
 
                     {/* 본문 */}
@@ -73,7 +73,6 @@ export default function IsaSil() {
                         items={[
                             "서브시스템의 잠재적인 리스크를 찾아 설계에 반영토록 하여, 안전 설계를 보장하여 줍니다.",
                             "각각의 서브시스템 개발단계에서 전체 시스템의 안전성을 위한 요구사항의 제시가 가능합니다.",
-                            "위험분석 결과를 적용하여 안전한 인터페이스를 확인합니다.",
                             "시스템 개발과정에서 위험분석 결과를 적용하여 안전한 인터페이스를 확인합니다.",
                             "설계단계의 시스템 요구사항이 실제 상용화를 위해 충족되었는지 적합성을 평가합니다.",
                             "전체 시스템의 개발 비용과 향후 운영 및 유지보수 비용을 절감할 수 있습니다.",

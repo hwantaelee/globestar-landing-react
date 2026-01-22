@@ -3,6 +3,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import consultingTitle from "../../../../public/images/consulting/consulting-title.png";
 import consultingPhoto1 from "../../../../public/images/consulting/consulting-photo1.png";
 import consultingPhoto2 from "../../../../public/images/consulting/consulting-photo2.png";
+import consultingPhoto3 from "../../../../public/images/consulting/consulting-photo3.png";
 
 export default function ConsultingMobile() {
     return (
@@ -36,6 +37,7 @@ export default function ConsultingMobile() {
             <div className="flex flex-col gap-4">
                 <img src={consultingPhoto1} className="w-full h-48 object-fill" />
                 <img src={consultingPhoto2} className="w-full h-48 object-fill" />
+                <img src={consultingPhoto3} className="w-full h-48 object-fill" />
             </div>
 
             {/* 리스트 */}

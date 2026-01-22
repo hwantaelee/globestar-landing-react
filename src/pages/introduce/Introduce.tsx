@@ -19,7 +19,7 @@ export default function Introduce() {
     const isLaptop = device === "laptop";
 
     return (
-        <div className="w-full h-[calc(100vh-136px)] px-8 py-4 flex flex-col gap-4">
+        <div className="w-full min-h-[calc(100vh-136px)] px-8 py-4 flex flex-col gap-4">
             {/* breadcrumb 유지 */}
             <Breadcrumb first="HOME" second="회사소개" third="회사소개" />
 
@@ -35,10 +35,10 @@ export default function Introduce() {
                     ・ 회사소개
                 </p>
 
-                <div className="w-full flex gap-4 items-center">
+                <div className="w-full flex gap-4 items-center pt-4">
                     <img
                         src={introduce}
-                        className="w-[40%]"
+                        className="w-[40%] h-100 object-contain"
                     />
 
                     <div className={cn(

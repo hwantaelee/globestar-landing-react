@@ -7,9 +7,9 @@ import tuvNord from "../../../public/images/client/tuv-nord.png";
 import dnv from "../../../public/images/client/dnv.webp";
 import krRegi from "../../../public/images/client/kr-regi.svg";
 import alstom from "../../../public/images/client/alstom.svg";
-import knorr from "../../../public/images/client/knorr-bremse.jpg";
+import knorr from "../../../public/images/client/knorr-bremse.png";
 import caf from "../../../public/images/client/caf.png";
-import rotem from "../../../public/images/client/hyundai-rotem.jpg";
+import rotem from "../../../public/images/client/hyundai-rotem.svg";
 import kra from "../../../public/images/client/kra.png";
 import koreaNationalRailway from "../../../public/images/client/korea-national-railway.jpg";
 import seoulMetro from "../../../public/images/client/seoul-metro.png";
@@ -65,9 +65,9 @@ export default function Clients() {
             </p>
 
             <p className={cn(
-                "text-center",
-                isLaptop && "text-sm",
-                isTablet && "text-xs"
+                "text-center text-xl",
+                isLaptop && "text-base",
+                isTablet && "text-sm"
             )}>
                 <span className="bg-primary text-white">글로브스타</span>와 함께하는 국내/외 고객사 리스트입니다.<br />
                 고객과 함께 <span className="text-primary">동반성장</span>해 나가겠습니다.
@@ -78,8 +78,8 @@ export default function Clients() {
                 isTablet && "items-center px-0 py-4 gap-6"
             )}>
                 <ClientGridRow clients={[
-                    { ci: rina, clientName: "리나서비스" },
-                    { ci: tuvNord, clientName: "TUV NORD" },
+                    { ci: rina, clientName: "리나서비스", className: "object-contain" },
+                    { ci: tuvNord, clientName: "TUV NORD", className: "object-contain" },
                     { ci: dnv, clientName: "DNV" },
                     { ci: krRegi, clientName: "한국선급" },
                 ]} />
@@ -87,10 +87,10 @@ export default function Clients() {
                     { ci: alstom, clientName: "알스톰" },
                     { ci: knorr, clientName: "크노르" },
                     { ci: caf, clientName: "카프" },
-                    { ci: rotem, clientName: "현대로템" },
+                    { ci: rotem, clientName: "현대로템", className: "object-contain" },
                 ]} />
                 <ClientGridRow clients={[
-                    { ci: kra, clientName: "한국철도협회" },
+                    { ci: kra, clientName: "한국철도산업협회" },
                     { ci: koreaNationalRailway, clientName: "국가철도공단" },
                     { ci: seoulMetro, clientName: "서울교통공사" },
                     { ci: krri, clientName: "한국철도기술연구원" },
@@ -102,7 +102,7 @@ export default function Clients() {
                     { ci: hyundaiElectric, clientName: "현대일렉트릭앤에너지" },
                 ]} />
                 <ClientGridRow clients={[
-                    { ci: sean, clientName: "세안정기" },
+                    { ci: sean, clientName: "세안정기", className: 'object-contain scale-125' },
                     { ci: daeho, clientName: "대호에이엘" },
                     { ci: sungsin, clientName: "성신 RST" },
                     { ci: snt, clientName: "S&T" },

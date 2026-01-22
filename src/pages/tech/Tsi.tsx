@@ -3,7 +3,7 @@ import PageTitle from "../../components/PageTitle";
 import TechNavBar from "./components/nav-bar/TechNavBar";
 
 import tsiTitle from "../../../public/images/tech/tsi-title.png";
-import tsiPhoto1 from "../../../public/images/tech/tsi-photo1.png";
+import tsiPhoto from "../../../public/images/tech/tsi-photo.png";
 
 import { useDeviceStore } from "../../store/useDeviceStore";
 import { cn } from "../../utils/cn";
@@ -75,7 +75,7 @@ export default function Tsi() {
                         </div>
 
                         <div className="w-[40%] flex">
-                            <img src={tsiPhoto1} className="w-full object-contain" />
+                            <img src={tsiPhoto} className="w-full object-contain" />
                         </div>
                     </div>
                 </div>
