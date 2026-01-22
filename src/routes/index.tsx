@@ -44,4 +44,6 @@ export const router = createBrowserRouter([
             { path: "consulting", element: <Consulting /> },
         ],
     },
-]);
+], {
+    basename: import.meta.env.BASE_URL
+});
