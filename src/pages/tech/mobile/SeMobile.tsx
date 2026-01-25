@@ -27,7 +27,7 @@ export default function SeMobile() {
                     className="w-full aspect-video object-cover"
                 />
                 <div className="absolute inset-0 bg-black/50 flex items-center px-4">
-                    <p className="text-white text-[10px] leading-relaxed">
+                    <p className="text-white text-xs leading-relaxed">
                         시스템 엔지니어링 (Systems Engineering)은
                         철도 프로젝트에서 성공적인 사업 실현과 전체 시스템의 조화를 위해 시스템간 발생할 수 있는 문제점 관리를 통해 사전에 해결하고 계약조건을 만족하여 설계, 제작, 검사, 시험 및 시운전단계를 포함하여 각 서브시스템이 통합될 때 요구된 성능을 충족시키도록 관리합니다.
                     </p>

@@ -21,7 +21,7 @@ export default function TabButton({ url, title, end = false }: Props) {
                     "flex-1 px-4 h-12 flex items-center text-lg justify-center font-medium transition-colors bg-primary text-white",
 
                     // ✅ tablet일 때만 글자 크기 축소
-                    isTablet && "text-xs"
+                    isTablet && "text-xs px-2"
                 )
             }
         >
